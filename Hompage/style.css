@@ -8,13 +8,17 @@ body {
 .limegreen {
   color: limegreen;
 }
-
-/* Navigation */
-
 .navbar,
 .slider-image {
   border-bottom: 2px solid #727272;
 }
+
+#products,
+#about {
+  padding-top: 100px;
+}
+/* Navigation */
+
 .nav-link {
   cursor: pointer;
 }
@@ -38,7 +42,16 @@ body {
 
 /* Produkte*/
 .card-image {
-  height: 250px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* über uns */
+.about-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
   background-position: center;
   background-size: cover;
 }
