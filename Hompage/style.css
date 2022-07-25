@@ -47,6 +47,13 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 991px) {
+  .card-group {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
 /* über uns */
 .about-image {
   width: 280px;
