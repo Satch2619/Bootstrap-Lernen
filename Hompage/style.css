@@ -11,6 +11,10 @@ body {
 
 /* Navigation */
 
+.navbar,
+.slider-image {
+  border-bottom: 2px solid #727272;
+}
 .nav-link {
   cursor: pointer;
 }
@@ -23,4 +27,11 @@ body {
 .icon-link:active,
 .icon-link:hover {
   color: limegreen !important;
+}
+
+.slider-image {
+  width: 100vw;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
 }
