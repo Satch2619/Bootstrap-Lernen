@@ -19,3 +19,8 @@ body {
 .nav-link:hover {
   color: limegreen !important;
 }
+
+.icon-link:active,
+.icon-link:hover {
+  color: limegreen !important;
+}
