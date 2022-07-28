@@ -13,3 +13,9 @@
   color: red;
   cursor: pointer;
 }
+
+#collapseKurse {
+  font-weight: bold;
+  font-size: x-large;
+  font-family: Verdana, Tahoma, sans-serif;
+}
